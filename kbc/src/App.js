@@ -48,13 +48,12 @@ function App() {
         <>
           <div className="main">
             {questionNumber > 15 ? (
-              <h1 className="congratsText" style={{ height:'100vh',display: "flex",
-                textAlign: "center",
-                justifyContent: "center",
-                alignItems: "center",
-                color: "red",
-                fontSize: "2rem",
-               }}>Congratulations, you are a billionaire now!</h1>
+              <h1 className="congratsText" style={{  position: 'relative',
+                top: 0,   
+                bottom: 0,
+                left: 0,
+                right: 0,
+                margin: 'auto',color:'red'}} >Congratulations, you are a billionaire now!</h1>
             ) : (
               timeOut ? (
                 <h1 className="endText">You earned: {earned}</h1>
