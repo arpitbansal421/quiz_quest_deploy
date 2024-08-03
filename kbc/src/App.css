@@ -92,6 +92,7 @@
 }
 
 .answers {
+  margin-top: 2px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -101,7 +102,7 @@
 .answer {
   width: 40%;
   padding: 10px;
-  margin: 0 10px 20px 10px;
+  margin: 0 10px 50px 10px;
   text-align: center;
   background: linear-gradient(#0e0124, #22074d);
   border: 1px solid white;
